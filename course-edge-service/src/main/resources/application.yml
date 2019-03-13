@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: course-edge
+
+embedded:
+  zookeeper:
+    port: 2181
+
+dubbo:
+  registry:
+    address: zookeeper://192.168.25.129:2181
