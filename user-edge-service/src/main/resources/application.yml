@@ -38,8 +38,9 @@ server:
 
 thrift:
   user:
-    ip: localhost
+    ip: 192.168.25.129
     port: 7070
   message:
     ip: localhost
     port: 9091
+

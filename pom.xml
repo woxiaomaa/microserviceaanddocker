@@ -12,7 +12,13 @@
         <module>message-java-thrift-service</module>
         <module>userthriftservice</module>
         <module>user-thrift-service-api</module>
+        <module>api-gateway-zuul</module>
+        <module>course-dubbo-service-api</module>
+        <module>course-dubbo-service</module>
+        <module>course-edge-service</module>
+        <module>user-edge-service</module>
     </modules>
+
 
     <dependencies>
         <dependency>
