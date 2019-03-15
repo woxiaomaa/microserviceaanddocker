@@ -44,3 +44,5 @@ if __name__ == "__main__":
     print("python thrift start")
     server.serve()
     print("python thrift stop")
+
+

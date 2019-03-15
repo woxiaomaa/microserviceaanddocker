@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  user-service:
+    image: user-thrift/user-thrift-service:latest
+    ports:
+    - 7070:7070
+
+  user-edge-service:
+    image: user-edge/user-edge-service:latest
+    links:
+    - user-service
+    ports:
+    - 8988:8988

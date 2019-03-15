@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM 192.168.25.129/microservice/openjdk:8-jdk-alpine
 VOLUME /tmp
 ADD user-thrift-service-0.0.1-SNAPSHOT.jar app.jar
 RUN sh -c 'touch /app.jar'
